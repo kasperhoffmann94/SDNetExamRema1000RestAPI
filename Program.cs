@@ -47,7 +47,6 @@ namespace Rema1000RestAPI
         {
             databaseContext.Database.Migrate();
             databaseContext.Database.EnsureCreated();
-            //TestData.Seed(databaseContext);
         }
 
 
